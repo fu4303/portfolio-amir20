@@ -6,10 +6,11 @@
   </div>
 </template>
 <script>
-import { multipier } from "../components/Waves.vue";
+import { multipier, rotate } from "../components/Waves.vue";
 export default {
   mounted() {
-    multipier.value = 2.5;
+    multipier.value = 10;
+    // rotate.value = Math.random() * 360;
   },
 };
 </script>

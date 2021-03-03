@@ -27,7 +27,7 @@
 import { multipier } from "../components/Waves.vue";
 export default {
   mounted() {
-    multipier.value = 1;
+    multipier.value = 2;
   },
 };
 </script>
